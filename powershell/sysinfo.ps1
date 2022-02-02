@@ -23,4 +23,4 @@ write-host(GetDate)
 $Date = GetDate
 
 
-Send-MailMessage -To "raderee@mail.uc.edu" -From "erader27@gmail.com" -Subject "IT3038C Windows SysInfo" -Body "My IP Address is: $IP. User is $env:USERNAME. Hostname is $env:computername. Powershell version is $Version. Today is $Date.  Yes I did this at 4:00 a.m., please don't judge me." -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential) 
+Send-MailMessage -To "leonardf@ucmail.uc.edu" -From "erader27@gmail.com" -Subject "IT3038C Windows SysInfo" -Body "My IP Address is: $IP. User is $env:USERNAME. Hostname is $env:computername. Powershell version is $Version. Today is $Date.  Yes I did this at 4:00 a.m., please don't judge me. Having issues pushing to GitHub but I'll ask in class.  Woohoo for Sandbox working!" -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential) 
