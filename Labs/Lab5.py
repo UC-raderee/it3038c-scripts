@@ -1,5 +1,7 @@
 import random, math
 
+print('Enter the range of numbers you would like to guess inbetween.  A random number will be generated depending on your input.')
+
 lower = int(input('Enter lowest number:- '))
 
 upper = int(input('Enter highest number:- '))
