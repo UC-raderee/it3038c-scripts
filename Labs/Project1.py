@@ -1,6 +1,7 @@
-#
+#Introducing the script and what it does
 
 print ("Hello!  Welcome to Emma's Mad Libs.  As a reminder, nouns are objects, places, or people.  Adjectives are descriptive words.  Verbs are action words.  Have fun, and don't use any dirty/curse words!  Just kidding.  Do what you want.")
+#Getting inputs to fill in the story
 play=True
 while play:
     adjective = input("Choose an adjective: ")
@@ -18,8 +19,7 @@ while play:
     verb3 = input("Choose a verb ending with -ing: ")
     noun2 = input("Choose a noun: ")
 
-
-#Displays the story based on the users input
+#Displays the story with user input filled in
     print ("------------------------------------------")
     print ("It was a",adjective,", cold November day.")
     print ("I woke up to the ",adjective2," smell of ",typeofbird," roasting in the ",roominhouse," downstairs.")
