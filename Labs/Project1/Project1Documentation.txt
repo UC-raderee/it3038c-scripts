@@ -1,0 +1,22 @@
+For my first project, I created a Python script to play MadLibs with a computer.
+
+You'll run this script by navigating to the file it is held within on your
+system, then typing:
+
+python3 RaderProject1.py
+
+Once you've started the script you will be prompted to fill in a list of nouns, adjectives, verbs, etc., and once finished will be given a story with your
+chosen words put into their logical (or illogical, which is kind of the point) 
+place.  You will then laugh at my fun game and fun story because I am fun.
+
+The inspiration for this project was found at the following location:
+
+https://hackr.io/blog/python-projects
+
+I got the genral idea from this page, but changed the story and many of the
+lines to make it run smoother and more unique to myself.  The story used was
+found at the following link, written by Brain Bunny.
+
+https://hobbylark.com/party-games/How-to-Make-Your-Own-Mad-Libs
+
+Have fun and thanks for playing my Mad Libs game!
