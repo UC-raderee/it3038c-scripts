@@ -160,7 +160,7 @@ AstrologyDict = {
 	"Sagitarius": "November 23 through December 20"
 }
 
-Join = input("""Hello!  I am a Zodiac Compatibility test script.  Please make sure to take a look at my README file before proceeding.  Are you ready to begin? Y/N\n""")
+Join = input("""Hello!  I am a Zodiac Compatibility test script.  I can tell you if two zodiac signs are compatible in a relationship with each other.  Are you ready to begin? Y/N\n""")
 
 if Join == 'Y':
     for key in AstrologyDict:
