@@ -163,7 +163,9 @@ AstrologyDict = {
 Join = input("""Hello!  I am a Zodiac Compatibility test script.  Please make sure to take a look at my README file before proceeding.  Are you ready to begin? Y/N\n""")
 
 if Join == 'Y':
-    key = input("""Great!  Please type your two zodiac signs in question with a plus sign in between.  Example: Leo + Pisces\n""")
+    for key in AstrologyDict:
+        print(key, ' : ', AstrologyDict[key])
+    key = input(""" Great!  Above this line there is an explanation of the different zodiac signs and which birthdates they correspond to.  Please type your two zodiac signs in question with a plus sign in between.  Example: Leo + Pisces\n""")
     if key in PairingsDict:
         print(PairingsDict[key])
     else:
@@ -174,4 +176,3 @@ else:
     print ("Sorry, that option doesnt exist")
 
 quit()
-
