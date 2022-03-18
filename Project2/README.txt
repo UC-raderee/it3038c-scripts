@@ -7,6 +7,6 @@ The idea for this project was not taken off the internet.  I tried many differen
 The explanations of zodiac compatibility came from this website: https://thoughtcatalog.com/kirsten-corley/2017/11/ranking-all-144-zodiac-couples-by-which-ones-end-up-the-happiest/
 
 There are no prerequisites needed to runt his script.  Just navigate to the folder it is saved in and run 
-  python3 (scriptname).py
+  python3 ZodiacComp.py
   
 Thank you for reading, please enjoy the script!
