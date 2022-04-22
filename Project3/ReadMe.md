@@ -11,6 +11,6 @@ The explanations of zodiac compatibility came from this website: https://thought
 The script idea for calculating zodiac signs came from this website: https://www.w3resource.com/python-exercises/python-conditional-exercise-38.php
 
 There are no prerequisites needed to runt his script.  Just navigate to the folder it is saved in and run 
-  python3 ZodiacComp.py
+  python3 AstrCompP3.py
   
 Thank you for reading, please enjoy the script!
