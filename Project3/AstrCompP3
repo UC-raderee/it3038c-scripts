@@ -1,3 +1,4 @@
+#Creating the disctionary for different Astrology Sign pairings
 PairingsDict = {
 "Cancer + Scorpio": "Many believe this is the best match in the entire Zodiac. These two signs understand and complement each other perfectly even though on the surface, they tend to have pretty different personalities. What works here is that each person in the relationship is strong where the other is weak. They’re both very interested in having a strong relationship (something they’re willing to put work into) and they have similar goals in life they’re going to want to work together to achieve.",
 "Pisces + Pisces": "The combination of two Pisces is horrifyingly strong and compatible. They find each other and each feel like they found their soulmate or the missing parts of who they need in another person. The relationship takes off almost instant and that’s what scares each of them and might drive them away from each other. It’s finding that person who is perfect for you but the next question they each have to ask themselves is are you ready for that sort of thing yet?",
@@ -144,7 +145,7 @@ PairingsDict = {
 "Virgo + Gemini": "These two will drive each other CRAZY. The Gemini will feel like a child to the Virgo and the Virgo will feel like an overbearing parent to the Gemini. Their friendship and romantic compatibility is almost zero.",
 "Scorpio + Taurus": "This is arguably the worst combination of any two signs. This pair just seems to bring out the absolute worse in each other. Like a tornado coming into each other’s lives and just ruining everything about the other person. There are some people who just shouldn’t be together and this duo is toxic."
 }  
-
+#Creating dictionary for zodiac sign parameters
 AstrologyDict = {
 	"Capricorn": "December 22 through January 20",
 	"Aquarius": "January 21 through February 19",
@@ -161,7 +162,7 @@ AstrologyDict = {
 }
 
 Join = input("""Hello!  I am a Zodiac Compatiility test script.  Please make sure to take a look at my README file before proceeding.  Are you ready to begin? Y/N\n""")
-
+#Added for Project 3, users can type birthdays to see their zodiac signs instead of reading through a chart 
 if Join == 'Y':
     ans = input('If you know your two zodiac signs, please type ! to continue.  If you do not, please type ? and you will be prompted to enter the birthdays of the two people in question.   ')
     if ans == '?':
@@ -222,7 +223,7 @@ if Join == 'Y':
             astro_sign = 'Libra' if (day < 23) else 'scorpio'
         elif month == 'november':
             astro_sign = 'Scorpio' if (day < 22) else 'sagittarius'
-            print("The Astrological sign for this birthday is :",astro_sign)
+        print("The Astrological sign for this birthday is :",astro_sign)
 
         if ans == '!':
             print("Great!  Let's continue.")
